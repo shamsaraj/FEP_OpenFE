@@ -36,15 +36,10 @@ This project reproduces a minimal **free energy perturbation (FEP)** workflow fo
 
 ## Files
 - `rbfe_python_tutorial_two_ligands.ipynb` — notebook performing setup, run, and analysis  
-- — ligand coordinates
-- — receptor coordinates 
+- `ligandA.mol2`, `ligandB.mol2` — ligand coordinates
+- `receptor_raw.pdb` — receptor coordinates
 - `README.md` — this summary
 
 ## References
 1. **J. Med. Chem. 2015**, 58, 6599–6616 — *Identification of N-(4-((1R,3S,5S)-3-amino-5-methylcyclohexyl)… (LGH447)* — reports 6 pM Ki for compound 8.  
 2. **ACS Med. Chem. Lett. 2013**, 4, 436–440 — *Structure-Guided Optimization of Pan-PIM Inhibitors* — reports 1 pM Ki for compound 5c (same as 3).
-"""
-
-readme_path = Path("/mnt/data/README.md")
-readme_path.write_text(readme_text)
-readme_path
