@@ -31,7 +31,7 @@ This project reproduces a minimal **free energy perturbation (FEP)** workflow fo
 
 ## Interpretation
 - The FEP reproduced the correct trend with reasonable magnitude.
-- Sign flip checks confirm proper ligand ordering (negative ΔΔG = j tighter).
+- Sign flip checks confirm proper ligand ordering: for a transformation i→j, a negative ΔΔG correctly indicates ligand j binds more tightly — here, ΔΔG(8→3) is negative, correctly identifying compound 3/5c as the tighter binder.
 - Minor overestimation likely stems from limited sampling (250 ps per λ).
 
 ## Files
